@@ -43,8 +43,8 @@ enum OpMode {iABC, iABx, iAsBx, iAx};  /* basic instruction format */
 
 #define SIZE_OP		6
 
-#define POS_OP		0
-#define POS_A		(POS_OP + SIZE_OP)
+#define POS_OP		26
+#define POS_A		0
 #define POS_C		(POS_A + SIZE_A)
 #define POS_B		(POS_C + SIZE_C)
 #define POS_Bx		POS_C
