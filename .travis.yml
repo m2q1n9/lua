@@ -1,6 +1,0 @@
-language: c
-compiler:
-  - gcc
-script:
-  - make linux && make test
-  - cd tests && ../src/lua -e"_U=true" all.lua
